@@ -9,7 +9,7 @@ const VERCEL_PREVIEW_SITE =
   `https://${process.env.VERCEL_URL}`
 
 export default defineConfig({
-  site: VERCEL_PREVIEW_SITE || 'https://park-ui.com',
+  site: VERCEL_PREVIEW_SITE || 'https://park-v2.omikor.in',
   integrations: [mdx(), react(), sitemap()],
   markdown: {
     syntaxHighlight: false,
